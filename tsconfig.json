@@ -1,0 +1,19 @@
+{
+    "compilerOptions": {
+        "target": "es2022",
+        "module": "commonjs",
+        //source folder is src
+        "rootDir": "src",
+        "outDir": "dist",
+        "isolatedModules": false,
+        //generate .d.ts files
+        "declaration": true,
+        //ready it to be a moudle
+
+        "moduleResolution": "node",
+        "resolveJsonModule": true,
+        "esModuleInterop": true,
+        "strict": true,
+
+    }
+}
